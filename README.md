@@ -9,11 +9,11 @@ Corewar
 
 This project can be divided into three distinctive parts:
 
-###The assembler:
+### The assembler:
 This is the program that will compile your champions and trans- late them from assembly language into “Byte- code”, a machine code, which will be directly interpreted by the virtual machine.
-###The virtual machine:
+### The virtual machine:
 It’s the “arena” in which the champions will be executed. It offers various functions, all of which will be useful for the battle of the champions. It allows to execute numerous simultaneous processes.
-###The champion:
+### The champion:
 For now, only needs to prove that writing some bits and pieces of assembly language.
 
 ## Allowed functions
