@@ -29,4 +29,4 @@ brew install sdl2_image
 ```
 git clone --recursive https://github.com/mzabalza/corewar.git; make
 ```
-![compile](corewar/gifs/compile.gif)
+![compile](gifs/compile.gif)
