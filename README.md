@@ -27,7 +27,7 @@ When a computer interprets assembly level instructions, these instructions are t
 
 <img src="https://github.com/mzabalza/corewar2/blob/master/img/architecture.png" width="50%">
 
-Our virtual machine acts exactly the same way. In our case the it will read the the player programm consisting of different  intructions. The VM will be able to read 16 different types of intructions:
+Our virtual machine acts exactly the same way. At the beginning of the programm the virtual machine will take the players programm and will put it into the arena(space of limited memory: 64 x 64 bytes). then a PC(Programm Counter) will point at the first instruction of the player, and will execute the instructions 1 by one. In our case the VM will be able to read 16 different types of intructions:
 
 - LIVE
 - LD
@@ -45,7 +45,6 @@ Our virtual machine acts exactly the same way. In our case the it will read the 
 - LLDI
 - LFORK
 - AFF
-
 
 
 
