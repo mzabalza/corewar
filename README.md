@@ -21,7 +21,7 @@ Within the project, it is allowed to use only the following libc functions:open,
 
 ## 2. VIRTUAL MACHINE
 
-<img src="img/architecture.png" width="50%">
+<img src="https://github.com/mzabalza/corewar2/blob/master/img/architecture.png" width="50%">
 
 
 ## 3. PROJECT USAGE
