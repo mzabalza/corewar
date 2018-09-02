@@ -24,5 +24,5 @@ Within the project, it is allowed to use only the following libc functions:open,
 
 ## 3. Run program
 ```
-git clone --recursive 
+git clone --recursive https://github.com/mzabalza/corewar.git; make
 ```
