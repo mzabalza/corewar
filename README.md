@@ -25,5 +25,7 @@ Within the project, it is allowed to use only the following libc functions:open,
 ## 3. Run program
 ```
 brew install sdl2_image
+```
+```
 git clone --recursive https://github.com/mzabalza/corewar.git; make
 ```
