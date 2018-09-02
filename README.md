@@ -20,3 +20,9 @@ For now, only needs to prove that writing some bits and pieces of assembly langu
 Within the project, it is allowed to use only the following libc functions:open, read, lseek, write, close, malloc, realloc, free, perror, strerror, exit.
 
 ## 2. VIRTUAL MACHINE
+
+
+## 3. Run program
+```
+git clone --recursive 
+```
