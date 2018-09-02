@@ -22,7 +22,8 @@ Within the project, it is allowed to use only the following libc functions:open,
 ## 2. VIRTUAL MACHINE
 
 
-## 3. Run program
+## 3. PROJECT USAGE
+### 3.1 Clone and Compile
 ```
 brew install sdl2_image
 ```
@@ -30,3 +31,7 @@ brew install sdl2_image
 git clone --recursive https://github.com/mzabalza/corewar.git; make
 ```
 ![compile](gifs/compile.gif)
+
+### 3.2 Execute binary
+
+![compile](gifs/run_vm.gif)
