@@ -23,11 +23,11 @@ Within the project, it is allowed to use only the following libc functions:open,
 
 The virtual machine has been programmed following computer architecture basics and program execution in memory. 
 
-When a computer interprets assembly level instructions, these instructions are turned into their binary equivalents for the CPU to read. When the CPU executes the instructions. Instructions consists of an opcode and any applicable data that goes with it, if required (e.g. register names, memory addresses).
+When a computer interprets assembly level instructions, these instructions are turned into their binary equivalents for the CPU to read. Instructions consists of an opcode and any applicable data that goes with it, if required (e.g. register names, memory addresses).
 
 <img src="https://github.com/mzabalza/corewar2/blob/master/img/architecture.png" width="50%">
 
-Our virtual machine acts exactly the same way. At the beginning of the programm the virtual machine will take the players programm and will put it into the arena(space of limited memory: 64 x 64 bytes). then a PC(Programm Counter) will point at the first instruction of the player, and will execute the instructions 1 by one. In our case the VM will be able to read 16 different types of intructions:
+Our virtual machine acts exactly the same way. At the beginning of the programm the virtual machine will take the players programm and will put it into the arena(space of limited memory: 64 x 64 bytes). then a PC(Programm Counter) will point at the first instruction of the player, and will execute the instructions one by one. In our case the VM will be able to read 16 different types of intructions:
 
 - LIVE
 - LD
@@ -46,7 +46,12 @@ Our virtual machine acts exactly the same way. At the beginning of the programm 
 - LFORK
 - AFF
 
+Bassically the VM will the operations like:
+- Modify info in the arena/process registers.
+- Create/Kill processes.
 
+The main goal of the game is to stay alive so the VM will meanwhile record the last time a player said the instruction live.
+At the end of the playing cycles the VM will show the winning player.
 
 ## 3. PROJECT USAGE
 ### 3.1 Clone and Compile
